@@ -1,4 +1,5 @@
 Video sharing platform based on Node.js + React.
+
 Main key features: registering users, uploading videos, like and commenting with tagging users on videos,
 live notification system (socket), video suggestion algorithm, user profile page, channel subscription, user settings page 
 
