@@ -1,6 +1,6 @@
-module.exports = {
-    HOST: "localhost",
-    USER: "netanelw_db",
-    PASSWORD: "5aQMHjtuc7tY",
-    DB: "netanelw_db"
+module.exports = {
+    HOST: "localhost",
+    USER: "nati",
+    PASSWORD: "VTtVj8K788Uf",
+    DB: "nati"
   };
