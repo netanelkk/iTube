@@ -116,7 +116,7 @@ router.post("/upload",[
           return res.status(400).json({ msg: "" });
         });
       }).catch((e) => {
-        return res.status(400).json({ msg: "" });
+        return res.status(400).json({ msg: e });
       });
     });
   }
