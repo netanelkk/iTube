@@ -7,8 +7,8 @@ const notification = require("./notification");
 const https = require('https');
 const fs = require('fs');
 const options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/$DOMAIN/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/$DOMAIN/fullchain.pem')
+    key: fs.readFileSync('/etc/letsencrypt/live/nati.vps.webdock.cloud/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/nati.vps.webdock.cloud/fullchain.pem')
 };
 
 class Server {
