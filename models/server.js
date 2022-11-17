@@ -65,6 +65,7 @@ class Server {
     this.server = https.createServer(options, this.app).listen(8000);
     const socket_listen = socket(this.server,{ cors: { origin: '*' } });
     notification(socket_listen);
+    console.log("SERVER STARTED..");
   }
 
 }
