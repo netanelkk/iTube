@@ -38,7 +38,7 @@ let API_URL = "";
 if(local) {
   API_URL = "http://10.0.0.165:4000";
 }else{
-  API_URL = "https://itube.netanel.website";
+  API_URL = "https://45.136.70.128:4000";
 }
 
 

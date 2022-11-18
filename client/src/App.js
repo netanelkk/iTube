@@ -33,7 +33,7 @@ if(local) {
   window.API_URL = "http://10.0.0.165:4000";
 }else{
   window.PATH = "/sources/itube";
-  window.API_URL = "https://itube.netanel.website";
+  window.API_URL = "https://45.136.70.128:4000";
 }
 
 

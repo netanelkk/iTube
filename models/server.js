@@ -6,9 +6,10 @@ const socket = require("socket.io");
 const notification = require("./notification");
 const https = require('https');
 const fs = require('fs');
+
 const options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/nati.vps.webdock.cloud/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/nati.vps.webdock.cloud/fullchain.pem')
+    key: fs.readFileSync('privkey.pem'),
+    cert: fs.readFileSync('fullchain.pem')
 };
 
 class Server {
@@ -43,7 +44,7 @@ class Server {
     this.app.use(bodyParser.json());
     this.app.use(bodyParser.urlencoded({ extended: true }));
 
-    // delay for testing - TODO: Remove it
+    // delay for testing
     /*
     this.app.use(function(req,res,next){
       setTimeout(next, 500);
